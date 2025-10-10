@@ -1,0 +1,6 @@
+user: procrastinating
+Bobot: Procrastination is the art of keeping up with yesterday.
+user: hisodah
+Bobot: I believe in you! What's your main task right now?
+user: i want to eat
+Bobot: I believe in you! What's your main task right now?
