@@ -1,16 +1,55 @@
+@font-face {
+    font-family: "Red Hat Display";
+    src: url("./fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Space Mono";
+    src: url("./fonts/Space_Mono/SpaceMono-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 20 px;
+    font-family: "Red Hat Display", sans-serif;
+    margin: 20px;
 }
 .chat-bot {
     border: 1px solid #ccc;
     padding: 10px;
-    height: 300 px;
+    height: 300px;
     overflow-y: scroll;
 }
 .user {
+    font-family: "Red Hat Display", sans-serif;
     color: blue;
 }
-.bot {
+.bobot {
+    font-family: "Red Hat Display", sans-serif;
     color: green;
+}
+
+.type h1 {
+    font-family: "Space Mono";
+    align-items: center;
+    font-size: 40px;
+    overflow: hidden;
+    margin-inline: auto;
+    white-space: nowrap;
+    border-right: .1em solid orange;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation: 
+        typing 3.5s steps(40, end) forwards,
+        blink .75s step-end infinite;
+}
+@keyframes typing { 
+    from { width: 0 }
+    to { width: 14ch; }
+}
+@keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
 }

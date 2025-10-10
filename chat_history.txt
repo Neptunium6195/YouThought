@@ -6,3 +6,7 @@ user: later
 Bobot: Procrastination is the art of keeping up with yesterday.
 user: YAY IT WORKS
 Bobot: I believe in you! What's your main task right now?
+user: where is my css
+Bobot: I believe in you! What's your main task right now?
+user: distracted
+Bobot: Stay on track and avoid distractions.
