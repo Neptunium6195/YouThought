@@ -1,6 +1,8 @@
-user: procrastinating
+user: procrastinatingastinatestinatetinateinatenate
 Bobot: Procrastination is the art of keeping up with yesterday.
-user: hisodah
+user: sdfudsf
 Bobot: I believe in you! What's your main task right now?
-user: i want to eat
+user: later
+Bobot: Procrastination is the art of keeping up with yesterday.
+user: YAY IT WORKS
 Bobot: I believe in you! What's your main task right now?
