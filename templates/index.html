@@ -4,12 +4,14 @@
         <title>YouThought</title>
     </head>
     <body>
-        <div class="type"><h1>YouThought</h1></div>
-        <form method="POST" action="/">
+        <div class="type", style= margin-bottom:1em><h1>YouThought</h1></div>
+       <div class="input"> <form method="POST" action="/">
             <input type="text" id="user-input" name="user-input" placeholder="Describe your issue..." required>
             <button type="submit">Send</button>
-        </form>
+            </form>
+        </div>
        <div class="chat-box" id= "chat-box">
+            
             {% for sender, msg in chat_history %}
                 <p class="{{ sender }}"> 
                     {{ sender.capitalize() }}: {{ msg }}

@@ -7,42 +7,61 @@
 }
 @font-face {
     font-family: "Space Mono";
-    src: url("./fonts/Space_Mono/SpaceMono-Regular.ttf");
+    src: url("./fonts/Space_Mono/SpaceMono-Bold.ttf");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
+input {
+    font-family: "Red Hat Display", sans-serif;
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: #273469;
+    color: white;
+    font-size: 1em;
+}
 body {
     font-family: "Red Hat Display", sans-serif;
     margin: 20px;
+    background-color: #fafaff;
 }
-.chat-bot {
+.chat-box {
     border: 1px solid #ccc;
     padding: 10px;
     height: 300px;
     overflow-y: scroll;
+    align-items: center;
+    width: 100%;
+    margin-right: 10px;
 }
 .user {
     font-family: "Red Hat Display", sans-serif;
-    color: blue;
+    color: #30343f;
 }
 .bobot {
     font-family: "Red Hat Display", sans-serif;
-    color: green;
+    color: #273469;
 }
 
 .type h1 {
     font-family: "Space Mono";
+    color: #273469;
     align-items: center;
     font-size: 40px;
     overflow: hidden;
     margin-inline: auto;
     white-space: nowrap;
-    border-right: .1em solid orange;
+    border-right: .1em solid #e4d9ff;
     margin: 0 auto;
     letter-spacing: .05em;
     animation: 
-        typing 3.5s steps(40, end) forwards,
+        typing 2s steps(40, end) forwards,
         blink .75s step-end infinite;
 }
 @keyframes typing { 
@@ -51,5 +70,5 @@ body {
 }
 @keyframes blink {
     from, to { border-color: transparent }
-    50% { border-color: orange }
+    50% { border-color: #e4d9ff }
 }
