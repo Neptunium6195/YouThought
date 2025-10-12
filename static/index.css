@@ -20,6 +20,18 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+/*div[class="input"] {
+    align-items: center;
+    width: 98%;
+    border: 10px solid #273469;
+    border-radius: 4px;
+}*/
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+}
 button {
     font-family: "Red Hat Display", sans-serif;
     background-color: #273469;

@@ -8,9 +8,9 @@ def load_chat_history():
         with open('chat_history.txt', 'r') as f:
             for line in f:
                 if line.startswith("user:"):
-                    chatHistory.insert(0, ("user", line[5:].strip()))
+                    chatHistory.append( ("user", line[5:].strip()))
                 elif line.startswith("Bobot:"):
-                    chatHistory.insert(0, ("Bobot", line[6:].strip()))
+                    chatHistory.append( ("Bobot", line[6:].strip()))
     else:
         print("chat_history.txt error")
     return chatHistory
@@ -33,14 +33,24 @@ def index():
     global chatHistory
     if request.method == 'POST':
         user_message = request.form.get('user-input', '').strip()
-        chatHistory.insert(0, ("user", user_message))
+        chatHistory.append( ("user", user_message))
         if "distract" in user_message or "focus" in user_message:
             bot_response = random.choice(responses["distracted"])
         elif "later" in user_message or "procrasinate" in user_message or "procrastinating" in user_message:
             bot_response = random.choice(responses["procrastinate"])
+        elif "lock in" in user_message or "locked in" in user_message or "focus on" in user_message:
+            bot_response = random.choice(responses["lock in"])
+        elif "start" in user_message or "starting" in user_message or "begin" in user_message:
+            bot_response = random.choice(responses["starting"])
+        elif "don't want to" in user_message or "do not want to" in user_message or "dont want to" in user_message:
+            bot_response = random.choice(responses["don't want to"])
+        elif "phone" in user_message or "social media" in user_message or "instagram" in user_message or "tiktok" in user_message or "snapchat" in user_message:
+            bot_response = random.choice(responses["phone"])
+        elif "tired" in user_message or "fatigue" in user_message or "exhausted" in user_message or "sleepy" in user_message:
+            bot_response = random.choice(responses["tired"])
         else:
             bot_response = random.choice(responses["default"])
-        chatHistory.insert(0, ("Bobot", bot_response))
+        chatHistory.append( ("Bobot", bot_response))
         with open('chat_history.txt', 'a') as f:
             f.write(f"user: {user_message}\n")
             f.write(f"Bobot: {bot_response}\n")

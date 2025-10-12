@@ -1,14 +1,43 @@
 {
     "procrastinate": [
         "Why do today what you can put off until tomorrow?",
-        "Procrastination is the art of keeping up with yesterday."
+        "Procrastination is the art of keeping up with yesterday.",
+        "Break your task into smaller, manageable parts and tackle them one at a time.",
+        "Be productive. Be the top 1%. Be successful. Sleep with the satisfication that you accomplished a lot."
     ],
     "distracted": [
         "Focus is the key to success.",
         "Stay on track and avoid distractions.",
         "Put your phone or any other distractions in another room."
     ],
+    "lock in": [
+        "Great! Let's lock in on that task and get it done.",
+        "Focusing on one task at a time can boost productivity.",
+        "Ok, you got this! I recommend using the 3-minute technique. Set a timer for 3 minutes and work on your\ntask without any distractions. It tricks your brain into getting started."
+    ],
+    "starting": [
+        "I recommend using the 3-minute technique. Set a timer for 3 minutes and work on your\ntask without any distractions. It tricks your brain into getting started.",
+        "Okay, use the 3-minute technique. Set a 3 minute timer and lock in. It tricks your brain into working."
+    ],
+    "don't want to": [
+        "It's okay we all feel that way sometimes. But, what sets you apart is that while they don't want to, you do it anyway.",
+        "Very understandable. But just start working. Put on an Ivie league mentality."
+    ],
+    "tired": [
+        "Try getting up and walking around to get moving.",
+        "Splash some cold water on your face.",
+        "Get a glass of water or an energy drink and lock in.",
+        "Get a light snack.",
+        "Get up and get moving! Do a little choreo or exercise.",
+        "Get some fresh air"
+    ],
+    "phone": [
+        "The average person wastes 9-12 years of their life on their phone. Put it away!",
+        "Think about how much time you waste on your phone. Put it in another room.",
+        "Reflect on the consequences of over phone usage: bad focus, mental fatique, lost time, anxiety, the list goes on. Put it somewhere else."
+    ],
     "default": [
-        "I believe in you! What's your main task right now?"
+        "I believe in you! What are you facing, procrasination, distracted, hard time starting? I am here to help!",
+        "Ok, tell me more about it. Use words like 'distracted', 'procrastinate', 'lock in', 'starting', or 'don't want to' so I can help you better."
     ]
 }
