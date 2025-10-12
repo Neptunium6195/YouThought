@@ -12,3 +12,17 @@ user: distracted
 Bobot: Stay on track and avoid distractions.
 user: I am testing what if I do procrastinate and distracted
 Bobot: Put your phone or any other distractions in another room.
+user: distract
+Bobot: Put your phone or any other distractions in another room.
+user: does this go to the top
+Bobot: I believe in you! What's your main task right now?
+user: Yay its bigger
+Bobot: I believe in you! What's your main task right now?
+user: crashing out bc why did it not work
+Bobot: I believe in you! What's your main task right now?
+user: proocrastinate
+Bobot: I believe in you! What's your main task right now?
+user: procrastinating
+Bobot: Why do today what you can put off until tomorrow?
+user: does this work distract
+Bobot: Stay on track and avoid distractions.

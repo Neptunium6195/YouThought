@@ -32,12 +32,12 @@ body {
     background-color: #fafaff;
 }
 .chat-box {
-    border: 1px solid #ccc;
+    border: 1px solid #273469;
     padding: 10px;
     height: 300px;
     overflow-y: scroll;
     align-items: center;
-    width: 100%;
+    width: 98%;
     margin-right: 10px;
 }
 .user {
@@ -60,9 +60,19 @@ body {
     border-right: .1em solid #e4d9ff;
     margin: 0 auto;
     letter-spacing: .05em;
-    animation: 
+    animation:
         typing 2s steps(40, end) forwards,
         blink .75s step-end infinite;
+}
+input[type="text"] {
+  height: 50px;
+  font-size: 20px;
+  background-color: #FFFFFF80;
+}
+button[type="submit"] {
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
 }
 @keyframes typing { 
     from { width: 0 }
