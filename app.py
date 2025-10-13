@@ -48,6 +48,8 @@ def index():
             bot_response = random.choice(responses["phone"])
         elif "tired" in user_message or "fatigue" in user_message or "exhausted" in user_message or "sleepy" in user_message:
             bot_response = random.choice(responses["tired"])
+        elif "motivate" in user_message or "motivation" in user_message or "motivated" in user_message or "inspire" in user_message or "inspiration" in user_message:
+            bot_response = random.choice(responses["motivation"])
         else:
             bot_response = random.choice(responses["default"])
         chatHistory.append( ("Bobot", bot_response))

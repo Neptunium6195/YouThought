@@ -40,3 +40,35 @@ user: starting
 Bobot: I believe in you! What are you facing, procrasination, distracted, hard time starting? I am here to help!
 user: Im tired
 Bobot: Get a glass of water or an energy drink and lock in.
+user: fdsasd
+Bobot: Ok, tell me more about it. Use words like 'distracted', 'procrastinate', 'lock in', 'starting', or 'don't want to' so I can help you better.
+user: im tired
+Bobot: Splash some cold water on your face.
+user: dfsasd
+Bobot: Ok, tell me more about it. Use words like 'distracted', 'procrastinate', 'lock in', 'starting', or 'don't want to' so I can help you better.
+user: motivate me
+Bobot: The secret of getting ahead is getting started.
+user: motivate me
+Bobot: The secret of getting ahead is getting started.
+user: motivate me
+Bobot: Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.
+user: motivation
+Bobot: The future depends on what you do today.
+user: motivate
+Bobot: The future depends on what you do today.
+user: I want to play Minecraft rn
+Bobot: Ok, tell me more about it. Use words like 'distracted', 'procrastinate', 'lock in', 'starting', or 'don't want to' so I can help you better.
+user: I want my brother to get out of my room
+Bobot: Ok, tell me more about it. Use words like 'distracted', 'procrastinate', 'lock in', 'starting', or 'don't want to' so I can help you better.
+user: He is distracting me
+Bobot: Stay on track and avoid distractions.
+user: why will it not scroll
+Bobot: I believe in you! What are you facing, procrasination, distracted, hard time starting? I am here to help!
+user: fdsfsasd
+Bobot: I believe in you! What are you facing, procrasination, distracted, hard time starting? I am here to help!
+user: fdsfsd
+Bobot: Ok, tell me more about it. Use words like 'distracted', 'procrastinate', 'lock in', 'starting', or 'don't want to' so I can help you better.
+user: procrastinatingastinate
+Bobot: Be productive. Be the top 1%. Be successful. Sleep with the satisfication that you accomplished a lot.
+user: fds
+Bobot: Ok, tell me more about it. Use words like 'distracted', 'procrastinate', 'lock in', 'starting', or 'don't want to' so I can help you better.

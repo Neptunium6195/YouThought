@@ -1,0 +1,48 @@
+{
+    "procrastinate": [
+        "How do I get started?", 
+        "How do I stop procrastinating?",
+        "I want to lock in. How do I lock in?",
+        "Give me some motivation to get started"
+    ],
+    "distracted": [
+        "Tips to stay focused",
+        "I want to scroll and relax, how do I lock in?",
+        "What do I do if I get distracted?"
+    ],
+    "lock in": [
+        "I want ot lock in. How do I lock in?",
+        "Tips to lock in",
+        "Give me some motivation to lock in"
+    ],
+    "starting": [
+       "How do I get started on my work?",
+       "I want to start working, how do I start?",
+       "I don't want to start, give me some motivation to start"
+    ],
+    "don't want to": [
+       "How do I start working?",
+       "How do I make working more enjoyable?",
+       "Give me some motivation to start working."
+    ],
+    "tired": [
+        "How do I stay awake?",
+        "How do I wake up my brain?",
+        "Songs to wake me up."
+    ],
+    "phone": [
+        "How do I stop using my phone?",
+        "How can I reduce my phone usage?",
+        "Motivation and statistics to make me stop using my phone"
+    ],
+    "motivation": [
+        "More motivation to work please",
+        "Motivation to reduce phone usage"
+    ],
+    "default": [
+        "How do I stop procrastinating and start working?",
+        "I want to be productive. How do I lock in.",
+        "I need motivation to work.",
+        "I feel tired. How do I stay awake?"
+    ]
+}

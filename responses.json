@@ -17,15 +17,17 @@
     ],
     "starting": [
         "I recommend using the 3-minute technique. Set a timer for 3 minutes and work on your\ntask without any distractions. It tricks your brain into getting started.",
-        "Okay, use the 3-minute technique. Set a 3 minute timer and lock in. It tricks your brain into working."
+        "Okay, use the 3-minute technique. Set a 3 minute timer and lock in. It tricks your brain into working.",
+        "Break your tasks into small and shorter tasks, and start with the easiest one to get momentum."
     ],
     "don't want to": [
         "It's okay we all feel that way sometimes. But, what sets you apart is that while they don't want to, you do it anyway.",
-        "Very understandable. But just start working. Put on an Ivie league mentality."
+        "Very understandable. But just start working. Put on an Ivie league mentality.",
+        "It's ok. Try the 3-minute technique, work on a task for 3 minutes. It tricks your brain into working."
     ],
     "tired": [
         "Try getting up and walking around to get moving.",
-        "Splash some cold water on your face.",
+        "Wash your face with cold water.",
         "Get a glass of water or an energy drink and lock in.",
         "Get a light snack.",
         "Get up and get moving! Do a little choreo or exercise.",
@@ -35,6 +37,12 @@
         "The average person wastes 9-12 years of their life on their phone. Put it away!",
         "Think about how much time you waste on your phone. Put it in another room.",
         "Reflect on the consequences of over phone usage: bad focus, mental fatique, lost time, anxiety, the list goes on. Put it somewhere else."
+    ],
+    "motivation": [
+        "The secret of getting ahead is getting started.",
+        "Don't watch the clock; do what it does. Keep going.",
+        "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+        "The future depends on what you do today."
     ],
     "default": [
         "I believe in you! What are you facing, procrasination, distracted, hard time starting? I am here to help!",

@@ -1,23 +1,33 @@
 <html>
     <head>
+        <script src="{{ url_for('static', filename='script.js') }}" defer></script>
         <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
         <title>YouThought</title>
     </head>
     <body>
-       <div class="type", style= margin-bottom:1em><h1>YouThought</h1></div>
+       <div class="type" style= margin-bottom:1em><h1>YouThought</h1></div>
        <div class="input">
             <form method="POST" action="/">
                 <input type="text" id="user-input" name="user-input" placeholder="Describe your issue..." required>
-                <button type="submit">Send</button>
+                <button type="submit" onclick="scroll()">Send</button>
             </form>
         </div>
        <div class="chat-box" id= "chat-box">
-            
             {% for sender, msg in chat_history %}
                 <p class="{{ sender }}"> 
                     {{ sender.capitalize() }}: {{ msg }}
                 </p>
             {% endfor %}
-        </div> 
+        </div>
+        <div class="follow-ups">
+            {% if follow_ups %}
+                <h3>Follow-up questions:</h3>
+                <ul>
+                    {% for question in follow_ups %}
+                        <li>{{ question }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
     </body>
 </html>
