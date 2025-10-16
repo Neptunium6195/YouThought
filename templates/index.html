@@ -20,14 +20,18 @@
             {% endfor %}
         </div>
         <div class="follow-ups">
-            {% if follow_ups %}
-                <h3>Follow-up questions:</h3>
-                <ul>
-                    {% for question in follow_ups %}
-                        <li>{{ question }}</li>
+            <h2>Follow-up questions:</h2>
+            <div style="display: flex; flex-direction: row; align-items: center;">
+                {% if problem == 8: %}
+                    {% for question in follow_ups.values(): %}
+                        <p style="width: 20%">{{ question }}</p>
                     {% endfor %}
-                </ul>
-            {% endif %}
+                {% else: %}
+                    <p> test </p>
+                {% endif %}
+                
+
+            </div>
         </div>
     </body>
 </html>
