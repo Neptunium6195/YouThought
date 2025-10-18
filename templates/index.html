@@ -9,7 +9,7 @@
        <div class="input">
             <form method="POST" action="/">
                 <input type="text" id="user-input" name="user-input" placeholder="Describe your issue..." required>
-                <button type="submit" onclick="scroll()">Send</button>
+                <button type="submit" onclick="scroll(); showFollowUps();">Send</button>
             </form>
         </div>
        <div class="chat-box" id= "chat-box">
@@ -19,19 +19,69 @@
                 </p>
             {% endfor %}
         </div>
-        <div class="follow-ups">
-            <h2>Follow-up questions:</h2>
-            <div style="display: flex; flex-direction: row; align-items: center;">
-                {% if problem == 8: %}
-                    {% for question in follow_ups.values(): %}
-                        <p style="width: 20%">{{ question }}</p>
+        <div id="follow-ups" class="follow-ups" style="display:block; font-family: Space Mono; font-size: 18px; flex-direction: column; align-items: center; gap: 1em; margin-top: 2em; margin-bottom: 2em;">
+            <h2 style="color: #d90429">Dive Deeper:</h2>
+            <div style="display: flex; flex-direction: row; align-items: center; gap: 2em; width: 100%;">
+                {% if problem == 0: %}
+                    {% for question in ((follow_ups["procrastinate"])): %}
+                        <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp('{{ question}}')">
+                            <p style="width: 100%">{{ question }}</p>
+                        </button>
+                    {% endfor %}
+                {% elif problem == 1 %}
+                    {% for question in ((follow_ups["distracted"])): %}
+                        <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp('{{ question}}')">
+                            <p style="width: 100%">{{ question }}</p>
+                        </button>
+                    {% endfor %}
+                {% elif problem == 2 %}
+                    {% for question in ((follow_ups["lock in"])): %}
+                        <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp('{{ question}}')">
+                            <p style="width: 100%">{{ question }}</p>
+                        </button>
+                    {% endfor %}
+                {% elif problem == 3 %}
+                    {% for question in ((follow_ups["starting"])): %}
+                        <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp('{{ question}}')">
+                            <p style="width: 100%">{{ question }}</p>
+                        </button>
+                    {% endfor %}
+                {% elif problem == 4 %}
+                    {% for question in ((follow_ups["don't want to"])): %}
+                        <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp('{{ question}}')">
+                            <p style="width: 100%">{{ question }}</p>
+                        </button>
+                    {% endfor %}
+                {% elif problem == 5 %}
+                    {% for question in ((follow_ups["tired"])): %}
+                        <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp('{{ question}}')">
+                            <p style="width: 100%">{{ question }}</p>
+                        </button>
+                    {% endfor %}
+                {% elif problem == 6 %}
+                    {% for question in ((follow_ups["phone"])): %}
+                        <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp('{{ question}}')">
+                            <p style="width: 100%">{{ question }}</p>
+                    {% endfor %}
+                {% elif problem == 7 %}
+                    {% for question in ((follow_ups["motivation"])): %}
+                        <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp('{{ question}}')">
+                            <p style="width: 100%">{{ question }}</p>
+                        </button>
                     {% endfor %}
                 {% else: %}
-                    <p> test </p>
+                    {% for question in ((follow_ups["default"])): %}
+                        <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp( '{{ question }}' )">
+                            <p style="width: 100%">{{ question }}</p>
+                        </button>
+                    {% endfor %}
                 {% endif %}
-                
 
             </div>
         </div>
+        <form style="display: none" id="followUp-form" action="/" method="POST">
+            <input type="text" id="followUp-input" name="user-input" autocomplete="off" />
+            <button type="submit"></button>
+        </form>
     </body>
 </html>

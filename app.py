@@ -76,8 +76,7 @@ def index():
         with open('chat_history.txt', 'a') as f:
             f.write(f"user: {user_message}\n")
             f.write(f"Bobot: {bot_response}\n")
-        return redirect(url_for('index'))
-    return render_template("index.html", chat_history=chatHistory, follow_ups=followUps)
-
+        return redirect(url_for('index', showFollowUps = 1))
+    return render_template("index.html", chat_history=chatHistory, follow_ups=followUps, problem=problem)
 if __name__ == '__main__':
     app.run(debug=True)
