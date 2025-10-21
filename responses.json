@@ -3,27 +3,47 @@
         "Why do today what you can put off until tomorrow?",
         "Procrastination is the art of keeping up with yesterday.",
         "Break your task into smaller, manageable parts and tackle them one at a time.",
-        "Be productive. Be the top 1%. Be successful. Sleep with the satisfication that you accomplished a lot."
+        "Be productive. Be the top 1%. Be successful. Sleep with the satisfication that you accomplished a lot.",
+        "If your procrasinating rigt now, ask me how to get started. Starting is the enemy of procrastination.",
+        "Starting is the hardest and most crucial part of beating procrastination. Ask me how to start.",
+        "The hardest part is just beginning. Do one tiny thing right now to build momentum.",
+        "Imagine how relieved you'll feel once it's done—that's the feeling you're chasing.",
+        "A small start beats a perfect plan that never begins."
     ],
     "distracted": [
         "Focus is the key to success.",
         "Stay on track and avoid distractions.",
-        "Put your phone or any other distractions in another room."
+        "Put your phone or any other distractions in another room.",
+        "You control your attention. Guard it like your most valuable resource—it is.",
+        "Your mind will wander. Bring it back, again and again. That's focus.",
+        "Every time you refocus, you train your brain to get stronger.",
+        "Turn off notifications for just 20 minutes—you'll be shocked how much you get done."
+
     ],
     "lock in": [
-        "Great! Let's lock in on that task and get it done.",
-        "Focusing on one task at a time can boost productivity.",
-        "Ok, you got this! I recommend using the 3-minute technique. Set a timer for 3 minutes and work on your\ntask without any distractions. It tricks your brain into getting started."
+        "Great! Let's lock in on that task and get it done. Ask me how to start.",
+        "Focusing on one small task at a time can boost productivity. Choose a task and ask me how to start.",
+        "Ok, you got this! I recommend using the 3-minute technique. Set a timer for 3 minutes and work on your\ntask without any distractions. It tricks your brain into getting started.",
+        "Nice, let's lock in. organize your tasks into smaller, manageable parts. Then, start with the easiest one to build momentum.",
+        "You control your attention. Guard it like your most valuable resource—it is. Ask me how to get started.",
+        "Your mind will wander. Bring it back, again and again. That's focus. Let's start.",
+        "Every time you refocus, you train your brain to get stronger. Train your brain, ask me how to start.",
+        "Turn off notifications for just 20 minutes—you'll be shocked how much you get done."
     ],
     "starting": [
         "I recommend using the 3-minute technique. Set a timer for 3 minutes and work on your\ntask without any distractions. It tricks your brain into getting started.",
         "Okay, use the 3-minute technique. Set a 3 minute timer and lock in. It tricks your brain into working.",
-        "Break your tasks into small and shorter tasks, and start with the easiest one to get momentum."
+        "Break your tasks into small and shorter tasks, and start with the easiest one to get momentum.",
+        "Action beats hesitation every time. Just begin. Do anythng.",
+        "A 5-minute start often leads to an hour of focus. Just get the ball rolling, start a timer and work for 5 minutes."
     ],
     "don't want to": [
         "It's okay we all feel that way sometimes. But, what sets you apart is that while they don't want to, you do it anyway.",
         "Very understandable. But just start working. Put on an Ivie league mentality.",
-        "It's ok. Try the 3-minute technique, work on a task for 3 minutes. It tricks your brain into working."
+        "It's ok. Try the 3-minute technique, work on a task for 3 minutes. It tricks your brain into working.",
+        "Discipline > motivation. You don't have to want to, you just have to begin. Ask me how to get started.",
+        "Think of how proud your future self will be that you didn't give in. Let's get started.",
+        "Even if you don't want to do it, doing it anyway is how you grow stronger. That's discipline, lock in and get started."
     ],
     "tired": [
         "Try getting up and walking around to get moving.",
@@ -31,21 +51,86 @@
         "Get a glass of water or an energy drink and lock in.",
         "Get a light snack.",
         "Get up and get moving! Do a little choreo or exercise.",
-        "Get some fresh air"
+        "Get some fresh air",
+        "Try some light stretching to get your blood flowing.",
+        "You might just need momentum, not rest. Try working for 5 minutes and see how you feel.",
+        "Energy comes from action. Start small and let it build."
     ],
     "phone": [
         "The average person wastes 9-12 years of their life on their phone. Put it away!",
         "Think about how much time you waste on your phone. Put it in another room.",
-        "Reflect on the consequences of over phone usage: bad focus, mental fatique, lost time, anxiety, the list goes on. Put it somewhere else."
+        "Reflect on the consequences of over phone usage: bad focus, mental fatique, lost time, anxiety, the list goes on. Put it somewhere else.",
+        "Your phone can wait—your goals can't.",
+        "One notification can break your flow. DND mode = peace mode.",
+        "You are wasting your time, time can not be regained. Put your phone away.",
+        "Challenge yourself: 20 minutes without your phone. You'll feel clearer and calmer."
     ],
     "motivation": [
         "The secret of getting ahead is getting started.",
         "Don't watch the clock; do what it does. Keep going.",
         "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
-        "The future depends on what you do today."
+        "The future depends on what you do today.",
+        "Success is not the key to happiness. Happiness is the key to success.",
+        "The future depends on what you do today.",
+        "Motivation fades, but discipline stays. Build the habit.",
+        "You've got potential—now all you need is consistency.",
+        "A year from now, you'll be glad you started today.",
+        "Discipline is doing what needs to be done, even when you don't feel like it.",
+        "Small steps every day lead to big results.",
+        "You won't always be motivated, so you must learn to be consistent.",
+        "Don't wait for opportunity—create it.",
+        "Your future is created by what you do today, not tomorrow.",
+        "Dream big. Start small. Act now.",
+        "Your only limit is your mindset.",
+        "It always seems impossible until it's done.",
+        "Push yourself, because no one else is going to do it for you.",
+        "The pain you feel today will be the strength you feel tomorrow.",
+        "The secret to getting ahead is simply getting started.",
+        "Action cures fear. Movement beats hesitation.",
+        "Start where you are. Use what you have. Do what you can.",
+        "You don't need to be great to start—you just need to start to be great.",
+        "Don't overthink it—just begin. You'll figure the rest out as you go.",
+        "Motivation comes after action, not before it.",
+        "Someday is not a day of the week.",
+        "Where focus goes, energy flows.",
+        "Your attention is your most valuable currency—spend it wisely.",
+        "Success is the sum of small efforts repeated day in and day out.",
+        "Don't count the hours. Make the hours count.",
+        "You get what you focus on—so focus on what you want.",
+        "If you get tired, learn to rest, not to quit.",
+        "One hour of deep focus beats five hours of distracted effort.",
+        "Later becomes never. Start now.",
+        "A year from now, you'll wish you started today.",
+        "Procrastination is the thief of time—don't let it steal your goals.",
+        "Do something today that your future self will thank you for.",
+        "The best way to get something done is to begin.",
+        "You don't have to finish it all right now—just take the first step.",
+        "If you wait for the perfect time, you'll wait forever.",
+        "You are capable of more than you think.",
+        "Believe in yourself even when no one else does.",
+        "Confidence is built by keeping promises you make to yourself.",
+        "Your mindset determines your success more than your skills.",
+        "You've done hard things before; you can do them again.",
+        "Stop doubting yourself—work hard and make it happen.",
+        "Act like the person you want to become.",
+        "Progress, not perfection.",
+        "Fall seven times, stand up eight.",
+        "Mistakes are proof that you're trying.",
+        "Every failure is a step closer to success.",
+        "Consistency beats intensity.",
+        "Growth is uncomfortable because you're learning who you're meant to be.",
+        "Don't be afraid to start over—it's a chance to build something better.",
+        "The future depends on what you do today.",
+        "You've got potential—now all you need is consistency.",
+        "A year from now, you'll be glad you started today.",
+        "Keep showing up, even on the days you don't feel like it.",
+        "Your dream doesn't work unless you do.",
+        "Remember why you started—your reason is stronger than your excuses."
     ],
     "default": [
         "I believe in you! What are you facing, procrasination, distracted, hard time starting? I am here to help!",
-        "Ok, tell me more about it. Use words like 'distracted', 'procrastinate', 'lock in', 'starting', or 'don't want to' so I can help you better."
+        "Ok, tell me more about it. Use words like 'distracted', 'procrastinate', 'lock in', 'starting', or 'don't want to' so I can help you better.",
+        "I'm listening. What's holding you back right now?",
+        "You can tell me how you're feeling—it helps me know how to support you best."
     ]
 }

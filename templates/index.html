@@ -19,9 +19,10 @@
                 </p>
             {% endfor %}
         </div>
-        <div id="follow-ups" class="follow-ups" style="display:block; font-family: Space Mono; font-size: 18px; flex-direction: column; align-items: center; gap: 1em; margin-top: 2em; margin-bottom: 2em;">
+        <div id="follow-ups" class="follow-ups" style="display:flex; justify-content: center; font-family: Space Mono; font-size: 18px; flex-direction: column; align-items: center; gap: 1em; margin-top: 2em; margin-bottom: 2em;">
+            <button id="regenerateButton" onclick="regenerate()">Generate a new response:</button>
             <h2 style="color: #d90429">Dive Deeper:</h2>
-            <div style="display: flex; flex-direction: row; align-items: center; gap: 2em; width: 100%;">
+            <div style="display: flex; justify-content: center; flex-direction: row; align-items: center; gap: 2em; width: 100%;">
                 {% if problem == 0: %}
                     {% for question in ((follow_ups["procrastinate"])): %}
                         <button class="follow_up_div" style="width: 20%; align-items: center;" onclick="hideFollowUp(), sendFollowUp('{{ question}}')">
@@ -83,5 +84,9 @@
             <input type="text" id="followUp-input" name="user-input" autocomplete="off" />
             <button type="submit"></button>
         </form>
+        <form style="display: none" id="regenerate-form" action="/" method="POST">
+            <input id="regenerate-input" style="display: none" name="regenerate" value="1"></input>
+        </form>
+
     </body>
 </html>

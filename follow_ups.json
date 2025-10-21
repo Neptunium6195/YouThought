@@ -3,41 +3,56 @@
         "How do I get started?", 
         "How do I stop procrastinating?",
         "I want to lock in. How do I lock in?",
-        "Give me some motivation to get started"
+        "Give me some motivation to get started",
+        "I feel tired, and have been procrastinating. How do I stay focused?",
+        "I don't want to do my work :(. Help me start."
     ],
     "distracted": [
         "Tips to stay focused",
         "I want to scroll and relax, how do I lock in?",
-        "What do I do if I get distracted?"
+        "What do I do if I get distracted?",
+        "Motivation to lock in.",
+        "My phone keeps distracting me what should I do?",
+        "I don't want to be distracted. What should I do to stop?"
     ],
     "lock in": [
-        "I want ot lock in. How do I lock in?",
+        "I want to lock in. How do I lock in?",
         "Tips to lock in",
-        "Give me some motivation to lock in"
+        "Give me some motivation to lock in",
+        "How do I start?",
+        "I don't want to do my work. Give me motivation to start.",
+        "I'm too tired to lock in, what should I do?"
     ],
     "starting": [
        "How do I get started on my work?",
        "I want to start working, how do I start?",
-       "I don't want to start, give me some motivation to start"
+       "I don't want to start, give me some motivation to start",
+       "Give me motivation to start working.",
+       "How do I stop procrastinating and start working?"
     ],
     "don't want to": [
        "How do I start working?",
        "How do I make working more enjoyable?",
-       "Give me some motivation to start working."
+       "Give me some motivation to start working.",
+       "I don't want to start, how do I start.",
+       "I don't want to work. I want to sleep what should I do to stay awake?"
     ],
     "tired": [
         "How do I stay awake?",
         "How do I wake up my brain?",
-        "Songs to wake me up."
+        "Motivation to stay awake.",
+        "How do I start working, I am a little tired."
     ],
     "phone": [
         "How do I stop using my phone?",
         "How can I reduce my phone usage?",
-        "Motivation and statistics to make me stop using my phone"
+        "Motivation to make me stop using my phone"
     ],
     "motivation": [
         "More motivation to work please",
-        "Motivation to reduce phone usage"
+        "Motivation to reduce phone usage",
+        "Motivational quotes to get me started",
+        "Motivational quotes to inspire me"
     ],
     "default": [
         "How do I stop procrastinating and start working?",

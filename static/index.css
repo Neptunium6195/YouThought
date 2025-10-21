@@ -32,6 +32,9 @@ form {
     justify-content: center;
     width: 98%;
 }
+.chat-box{
+    background-color: #FFFFFF80;
+}
 button {
     font-family: "Red Hat Display", sans-serif;
     background-color: #d80032;
@@ -96,6 +99,7 @@ button[type="submit"] {
    align-items: center;
    width: 100%;
 }
+
 @keyframes typing { 
     from { width: 0 }
     to { width: 14ch; }

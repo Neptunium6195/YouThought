@@ -14,7 +14,13 @@ function hideFollowUp() {
 function sendFollowUp(type) {
     document.getElementById('followUp-input').value = type;
     document.querySelector('#followUp-form').submit();
+    const btn = document.getElementById('regenerateButton');
+    btn.style.display = 'flex';
     hideFollowUp();
     scroll();
-    showFollowUps()
+    showFollowUps();
+}
+function regenerate() {
+    const form = document.getElementById('regenerate-form');
+    if (form) form.submit();
 }
