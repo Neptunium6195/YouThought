@@ -1,27 +1,22 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, session
 import random, os, json
 app = Flask(__name__)
-chatHistory = []
+app.secret_key = 'secret-key'
 
 def load_chat_history():
-    if os.path.exists('chat_history.txt'):
-        with open('chat_history.txt', 'r') as f:
-            for line in f:
-                if line.startswith("user:"):
-                    chatHistory.append( ("user", line[5:].strip()))
-                elif line.startswith("Bobot:"):
-                    chatHistory.append( ("Bobot", line[6:].strip()))
-    else:
-        print("chat_history.txt error")
+    chatHistory = []
+    with open('chat_history.txt', 'r') as f:
+        for line in f:
+            if line.startswith("user:"):
+                chatHistory.append( ("user", line[5:].strip()))
+            elif line.startswith("Bobot:"):
+                chatHistory.append( ("Bobot", line[6:].strip()))
     return chatHistory
 
 def load_responses():
     responses = {}
-    if os.path.exists('responses.json'):
-        with open('responses.json', 'r') as f2:
-            responses = json.load(f2)
-    else:
-        print("responses.json error")
+    with open('responses.json', 'r') as f2:
+        responses = json.load(f2)
     return responses
 
 def load_follow_ups():
@@ -37,26 +32,33 @@ chatHistory = load_chat_history()
 responses = load_responses()
 followUps = load_follow_ups()
 problem = 8
-category = None
-
+category = "default"
 @app.route('/', methods=['GET', 'POST'])
 
 def index():
     global chatHistory, followUps, problem, category
+    if 'chatHistory' not in session:
+        session['chatHistory'] = []
+    chatHistory = session['chatHistory']
     if request.method == 'POST':
         if request.form.get('regenerate'):
-            if category:
-                bot_response = random.choice(responses[category])
-            else:
-                bot_response = random.choice(responses.get("default"))
-                category = "default"
-            chatHistory.append(("Bobot", bot_response))
-            with open('chat_history.txt', 'a') as f:
-                f.write(f"user: { category }\n")
-                f.write(f"Bobot: {bot_response}\n")
-            return redirect(url_for('index', showFollowUps=1))
+            if chatHistory:
+                if category:
+                    bot_response = random.choice(responses[category])
+                else:
+                    bot_response = random.choice(responses.get("default"))
+                    category = "default"
+                chatHistory.append(("Bobot", bot_response))
+                session['chatHistory'] = chatHistory
+                with open('chat_history.txt', 'a') as f:
+                    f.write(f"user: { category }\n")
+                    f.write(f"Bobot: {bot_response}\n")
+                return redirect(url_for('index', showFollowUps=1))
         user_message = request.form.get('user-input', '').strip()
-        chatHistory.append( ("user", user_message))
+        if not user_message:
+            return redirect(url_for('index'))
+        chatHistory.append(("user", user_message))
+        session['chatHistory'] = chatHistory
         if "later" in user_message or "procrasinate" in user_message or "procrastinating" in user_message:
             bot_response = random.choice(responses["procrastinate"])
             problem = 0
@@ -94,6 +96,7 @@ def index():
             problem = 8
             category = "default"
         chatHistory.append( ("Bobot", bot_response))
+        session['chatHistory'] = chatHistory
         with open('chat_history.txt', 'a') as f:
             f.write(f"user: {user_message}\n")
             f.write(f"Bobot: {bot_response}\n")
